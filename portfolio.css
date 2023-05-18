@@ -16,6 +16,17 @@ html {
 
 
 }
+#dp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.dpimg{
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+        border:2px solid black;
+}
 
 .btnhome1{margin-left: 30%;
         margin-top: 5%;
