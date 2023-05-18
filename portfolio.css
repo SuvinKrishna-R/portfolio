@@ -1,0 +1,183 @@
+body,
+html {
+        height: 100vh;
+        margin: 0;
+}
+
+#home {
+        background-image: url(./images/portfolio_img1.jpg);
+
+        height: 100vh;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+}
+
+.btnhome1{margin-left: 30%;
+        margin-top: 5%;
+        width: 20%;
+        height: 5%;
+         border-radius: 10cm; 
+         font-size:100%;
+        font-style: oblique;}
+
+ .btnhome2{margin-left: 10%;
+          margin-top: 5%;
+        width: 17%;
+        height: 7%; 
+         border-radius: 10cm; 
+        font-size:100%;
+        font-style: italic;}
+
+
+/* @media(max-width:530px)
+        {
+            
+          .btnhome1{font-size:100%;}
+          .btnhome2{font-size:0%;} 
+          
+        } */
+
+
+
+.intro {
+        padding-left: 30%;
+        padding-top: 10%;
+
+}
+
+.discription {
+        font-size: 130%;
+        color: white;
+}
+
+@media(max-width:530px)
+{
+    
+        .discription{font-size:100%;}
+  
+  
+}
+
+
+
+
+.photo {
+        height: 70%;
+        width: 60%;
+
+        /* padding:15%; */
+
+}
+
+@media(max-width:1000px) {
+        .photo {
+                height: 75%;
+                width: 30%;
+        }
+
+}
+
+
+
+/* .ph_div {
+        height: 100%;
+        width: 100%;
+        
+
+} */
+
+#aboutme{height: 100%;
+        width: 100%;}
+
+/* .div1{height: 100%;
+        width: 100%;} */
+
+.btn_details {
+        text-decoration: none;
+        font-size: 100%;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.btn1 {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2rem;
+
+}
+
+
+.address {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+}
+
+.education {
+        border-style: double;
+        border-color: white;
+}
+
+/* .qualification{height: 50%;} */
+
+.progress {
+        width: 100%;
+        /* margin-left: 30px; */
+}
+
+#qualification {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+
+}
+
+#skills {
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+
+
+
+}
+
+.skill {
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 100%;
+
+}
+
+li {
+        width: 50%;
+        margin-top: 5%;
+
+
+}
+
+.moredetails {
+        padding-left: 35%;
+
+}
+
+#getintouch {
+        margin-top: -10%;
+        padding-bottom: 10%;
+        width: 100%;
+}
+
+#work {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /* padding-top: 20%; */
+       
+}
